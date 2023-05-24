@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { AiOutlineSearch } from 'react-icons/ai'
 import { BiChevronLeft, BiChevronRight } from 'react-icons/bi'
 import { IoFilter } from 'react-icons/io5'
