@@ -8,7 +8,7 @@ import { data, salesOverview } from '../utils/data/salesData';
 
 function Dashboard() {
     return (
-        <div className='px-5 lg:px-10 lg:ml-auto mt-28'>
+        <div className='px-5 lg:px-10 lg:ml-auto mt-10 lg:mt-28'>
             <h2 className="text-gray font-medium text-lg">Sales overview</h2>
             <div className='mt-5 grid gap-6 grid-cols-1 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-4'>
                 {

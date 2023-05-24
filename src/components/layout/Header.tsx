@@ -3,11 +3,12 @@ import Klasha__Logo from '../../assets/images/klasha__logo.png'
 import UserIcon from '../../assets/icons/user.png'
 import ChevronIcon from '../../assets/icons/chevron_down.png'
 import { AppContext } from '../../utils/AppContext'
+import { RiMenu5Line } from 'react-icons/ri'
 
 function Header() {
 
 
-    const { sidebarIsCollapsed } = useContext(AppContext)
+    const { sidebarIsCollapsed, setSidebarState } = useContext(AppContext)
 
 
     return (
@@ -22,6 +23,7 @@ function Header() {
                     <span>En</span>
                     <img src={ChevronIcon}/>
                 </div>
+                <RiMenu5Line size={25} className='lg:hidden' onClick={() => setSidebarState(!sidebarIsCollapsed)}/>
             </div>
         </div>
     )
