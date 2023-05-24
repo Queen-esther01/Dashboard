@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* CHART */
+.recharts-text .recharts-cartesian-axis-tick-value {
+  font-size: 12px !important;
+}
+
+.wire-card{
+  background-image: url('./assets/images/lines.png');
+  overflow: hidden;
+}
+
+td,th{
+  padding: 20px
+}
