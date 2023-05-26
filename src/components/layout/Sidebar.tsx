@@ -75,9 +75,9 @@ function Sidebar() {
             </button> */}
             {
                 showSidebar && 
-                <button onClick={handleSidebar} className='hidden lg:flex border border-gray bg-white z-50 rounded-md items-center gap-1 p-2 py-1.5 ml-10 mx-5 fixed bottom-20'>
+                <button onClick={handleSidebar} className='hidden lg:flex border border-gray bg-white z-50 rounded-md items-center gap-1 p-2 py-1.5 ml-10 mx-5 fixed bottom-5 -left-6'>
                     <BiChevronLeft size={25}/>
-                    <span className='text-xs font-bold pr-3'> { showSidebar ? 'Show' : 'Hide'} panel </span>
+                    {/* <span className='text-xs font-bold pr-3'> { showSidebar ? 'Show' : 'Hide'} panel </span> */}
                 </button>
             }
         </div>
